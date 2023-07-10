@@ -38,10 +38,9 @@ app.post("/", function(req,res){
                 // console.log(temp, Description);
                 //try to send the city requested dynamically
                 res.write("<p> The weather is currently " + weatherDescription + "</p>");
+                res.write("<img src="+imageURL+" width=100 height=100 >")
                 res.write("<h1> The temperature in "+city+" is "+ temp + " degrees Celcius.</h1> ")               
                 
-    
-                res.write("<img src="+imageURL+" width=100 height=100 >")
                 res.send();
 
                 } else if(weatherData.cod==404){
