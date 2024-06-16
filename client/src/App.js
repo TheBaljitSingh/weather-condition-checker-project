@@ -21,9 +21,11 @@ function App() {
     setCityName(e.target.value);
   }
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = "http://localhost:3000/";
+
+    const url = process.env.REACT_APP_BACKEND_URL;
     console.log(url);
     axios.post(url, { cityName })
       .then((response) => {
