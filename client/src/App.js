@@ -26,7 +26,6 @@ function App() {
     e.preventDefault();
 
     const url = process.env.REACT_APP_BACKEND_URL;
-    console.log(url);
     axios.post(url, { cityName })
       .then((response) => {
         if(response.status==200){
