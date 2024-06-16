@@ -73,7 +73,7 @@ function App() {
         <div  class=" rounded-lg p-8 w-100 ">
         <div class="flex items-center justify-between mb-4">
           <div>
-            <h2 class="text-xl font-semibold mb-2">{rCity} {countryCode}</h2>
+            <h2 class="text-xl font-semibold mb-2">{rCity}, {countryCode}</h2>
             {/* <p class="text-sm"></p> */}
           </div>
           
