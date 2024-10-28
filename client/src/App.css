@@ -1,0 +1,27 @@
+.background-color{
+    background: linear-gradient(to bottom, #a1c4fd, #c2e9fb, #b3d4fc, #c2c1ff);
+}
+.shadow-box {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.btn-check{
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-check:hover {
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    transform: translateY(-2px);
+}
+
+.btn-check:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(161, 196, 253, 0.4);
+}
